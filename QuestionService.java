@@ -27,6 +27,7 @@ public class QuestionService {
             Scanner sc = new Scanner(System.in);
             selections[j] = sc.nextInt();
             j++;
+            sc.close();
         }
     }
 
